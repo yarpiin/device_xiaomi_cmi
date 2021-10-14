@@ -108,9 +108,9 @@ void load_cmi() {
     property_override("ro.product.system.model", "Mi 10 Pro");
     property_override("ro.build.product", "cmi");
     property_override("ro.product.device", "cmi");
-    property_override("ro.build.description", "redfin-user 11 RQ3A.210905.001 7511028 release-keys");
+    property_override("ro.build.description", "redfin-user 11 RQ3A.211001.001 7641976 release-keys");
     property_override_multifp("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.bootimage.build.fingerprint",
-        "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys");
+        "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.211001.001/7641976:user/release-keys");
 }
 
 void vendor_load_properties() {
