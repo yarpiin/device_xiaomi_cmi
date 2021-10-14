@@ -21,7 +21,6 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_cmi
 TARGET_RECOVERY_DEVICE_MODULES := libinit_cmi
 
 # Kernel
-TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb
 TARGET_KERNEL_CONFIG := vendor/cmi_user_defconfig
 
 # Releasetools
