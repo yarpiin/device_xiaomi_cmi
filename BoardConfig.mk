@@ -16,9 +16,8 @@ TARGET_OTA_ASSERT_DEVICE := cmi
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_cmi
-TARGET_RECOVERY_DEVICE_MODULES := libinit_cmi
+# Fingerprint
+BUILD_FINGERPRINT := Xiaomi/cmi/cmi:11/RKQ1.200826.002/V12.5.10.0.RJBCNXM:user/release-keys
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/cmi_user_defconfig
