@@ -20,7 +20,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 BUILD_FINGERPRINT := Xiaomi/cmi/cmi:11/RKQ1.200826.002/V12.5.10.0.RJBCNXM:user/release-keys
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/cmi_user_defconfig
+TARGET_KERNEL_CONFIG := cmi_user_defconfig
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
