@@ -8,7 +8,6 @@ DEVICE_PATH := device/xiaomi/cmi
 
 # Inherit from sm8250-common
 -include device/xiaomi/sm8250-common/BoardConfigCommon.mk
--include vendor/xiaomi/sm8250-common/BoardConfigVendor.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := cmi
@@ -17,7 +16,7 @@ TARGET_OTA_ASSERT_DEVICE := cmi
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Fingerprint
-BUILD_FINGERPRINT := Xiaomi/cmi/cmi:12/SKQ1.211006.001/V13.0.3.0.SJACNXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/cmi/cmi:12/RKQ1.211001.001/V13.0.4.0.SJACNXM:user/release-keys
 
 # Kernel
 TARGET_KERNEL_CONFIG := cmi_user_defconfig
